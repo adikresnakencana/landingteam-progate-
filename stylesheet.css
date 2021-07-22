@@ -113,9 +113,9 @@
 .lesson-icon img{
      background-size: cover;
     border-radius: 50%;
-    /* width: auto; */
+    width: auto;
     width: 220px;
-    /* height: auto; */
+    height: auto;
     height: 220px;
     border: solid 3px rgb(234, 248, 223);
     background-size: cover;
