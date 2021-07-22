@@ -1,9 +1,38 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+/*   responsive  main-profil */
+  .lessons {
+        display: flex;
+        justify-content: center;
+        flex-direction: wrap;
+        
+        
+      }
+    
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 40%;
+        margin: 20px;
+    
+      }
   
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  
+  /*   responsive  main-profil */
+  .lessons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 93%;
+   
+   
+  }
 }
