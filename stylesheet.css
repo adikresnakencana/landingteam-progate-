@@ -13,6 +13,70 @@
   
   body {
     font-family: "Lucida Grande";
+    
   }
+  
+  header {
+    padding: 20px 5px 20px 5px;
+    background-color: #595260;
+    height: 60px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    position: sticky;
+    
+    
+  }
+
+  .nav-kiri .logo {
+    width:  60px;
+    
+     
+  }
+
+
+  .container a{
+    text-decoration: none;
+    color: #B2B1B9;
+
+    
+  }
+
+  .nav-kiri {
+    float: left;
+    padding-left: 25px;
+    
+    
+
+  }
+
+  .container .nav-kanan {
+    float: right;
+    padding-right: 25px;
+    
+  }
+  
+  .container .nav-kanan a{
+    transition: all 0.8s;
+    
+    padding: 22px 25px 22px 25px;
+  }
+
+  .container .nav-kanan a:hover{
+    padding: 22px 25px 22px 25px;
+    background-color: rgba(150, 147, 147, 0.5);    
+    color: white;  
+  }
+
+  
+
+  footer {
+    height: 110px;
+    width: 100%;
+    background-color: #595260;
+    color: white;
+    text-align: center;
+    line-height: 110px;
+  }
+
   
   
