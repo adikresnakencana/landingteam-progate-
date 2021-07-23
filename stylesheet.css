@@ -78,6 +78,99 @@
     line-height: 110px;
   }
 
+/* code css main-profil */
+.container{
+    max-width:1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .lessons {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    width: 25%;
+    padding: 10px 10px;
+    margin: 20px;
+   
+    
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.lesson-icon img{
+     background-size: cover;
+    border-radius: 50%;
+    width: auto;
+    width: 220px;
+    height: auto;
+    height: 220px;
+    border: solid 3px rgb(234, 248, 223);
+    background-size: cover;
+   
+  }
+.lesson-icon img:hover{
+  background-size: cover;
+    border-radius: 50%;
+    width: auto;
+    width: 220px;
+    height: auto;
+    height: 220px;
+    border: solid 3px rgb(180, 221, 211);
+    background-size: cover;
+  }
+  
+.lesson-icon p{
+    position: absolute;
+    top:90px;
+    width:100%;
+    color:white;
+  }
+
+.Name{
+    margin-top: 10px;
+    color: rgb(37, 37, 37);
+  font-size: 18px;
+  font-weight: bold;
+  }
+  
+ 
+.txt-contents{
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color:#b3aeb5;
+  }
+
+.sosialmedia{
+  margin: 24px 0;
+}
+
+.fa {
+  padding: 5px;
+  text-decoration: none;
+  color: #3f534d;
+}
+
+.fa:hover {
+  padding: 5px;
+  text-decoration: none;
+  color: #0ab581;
+}
+
 
 
   
