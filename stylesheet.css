@@ -22,8 +22,8 @@
     height: 60px;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    position: sticky;
-    
+    display: flex;
+    align-content: center;
     
   }
 
@@ -33,8 +33,13 @@
      
   }
 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 
-  .container a{
+  .navbar a{
     text-decoration: none;
     color: #B2B1B9;
 
@@ -42,32 +47,27 @@
   }
 
   .nav-kiri {
-    float: left;
     padding-left: 25px;
-    
     
 
   }
 
-  .container .nav-kanan {
-    float: right;
+  .navbar .nav-kanan {
     padding-right: 25px;
     
   }
   
-  .container .nav-kanan a{
+  .navbar .nav-kanan a{
     transition: all 0.8s;
     
     padding: 22px 25px 22px 25px;
   }
 
-  .container .nav-kanan a:hover{
+  .navbar .nav-kanan a:hover{
     padding: 22px 25px 22px 25px;
     background-color: rgba(150, 147, 147, 0.5);    
     color: white;  
   }
-
-  
 
   footer {
     height: 110px;
@@ -200,6 +200,10 @@ body {
     box-shadow: 0 7px #1a7940;
 }
 
+.message-wrapper {
+  margin: 100px 50px;
+}
+
 .message-wrapper p {
     color: rgb(41, 2, 41);
 }
@@ -261,13 +265,23 @@ header {
     position: fixed;
     top: 0;
     height: 80px;
+    z-index: 10;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 64px;
     font-size: 16px;
-    position: relative;
+}
+
+.icon_bar {
+  display: none;
+}
+
+.burger_icon {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  margin-right: 32px;
 }
 
 header h1 {
@@ -306,6 +320,7 @@ header h1 {
     flex: 1;
     display: flex;
     align-items: center;
+    margin: 130px auto;
 }
 
 .right img {
@@ -328,6 +343,8 @@ header h1 {
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .msg {
@@ -357,9 +374,3 @@ button.cta {
 button.cta:hover {
     opacity: 0.9;
 }
-
-
-
-
-  
-  
