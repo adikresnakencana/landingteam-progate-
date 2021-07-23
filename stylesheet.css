@@ -12,7 +12,7 @@
   }
   
   body {
-    font-family: "Lucida Grande";
+    font-family: "helvetica";
     
   }
   
@@ -79,6 +79,10 @@
   }
 
 /* code css main-profil */
+a {
+    text-decoration: none;
+  }
+
 .container{
     max-width:1170px;
     padding: 0 15px;
