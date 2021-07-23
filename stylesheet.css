@@ -79,6 +79,10 @@
   }
 
 /* code css main-profil */
+.main-wrapper{
+  margin-top: 20px;
+}
+
 a {
     text-decoration: none;
   }
